@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://afeld.github.io/emoji-css/emoji.css");
+.box {
+  padding: 20px;
+  display: inline-block;
+}
+
+.box .message-body,
+.box .message-title,
+.box .message-paragraph {
+  text-align: center;
+}
+
+.message-section {
+  width: 100%;
+  text-align: center;
+  background: #eee9e9;
+}
+
+.em {
+  width: 20px;
+}
+
+.message {
+  width: 304px;
+  height: 302px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.message-warning {
+  background: #ff9966;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#FD916A), to(#FD6266));
+  background: linear-gradient(to right, #FD916A, #FD6266);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.message-error {
+  background: #F5515F;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#F5515F), color-stop(#F44F60), to(#D00269));
+  background: linear-gradient(to right, #F5515F, #F44F60, #D00269);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.message-success {
+  background: #1D976C;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#30CC71), to(#1D976C));
+  background: linear-gradient(to right, #30CC71, #1D976C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.message-body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.message-title {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.message-title-warning {
+  color: white;
+}
+
+.message-title-error {
+  color: white;
+}
+
+.message-title-success {
+  color: white;
+}
+
+.message-paragraph {
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 1px solid #f4f7f2;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  background-color: #f4f7f2;
+}
+
+.btn-warning {
+  background-color: #f4f7f2;
+  color: #FD6266;
+}
+
+.btn-error {
+  background-color: #f4f7f2;
+  color: #e7214c;
+}
+
+.btn-success {
+  background-color: #f4f7f2;
+  color: #30CC71;
+}
+/*# sourceMappingURL=style.css.map */
