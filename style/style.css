@@ -36,8 +36,8 @@
   background: #ff9966;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#FD916A), to(#FD6266));
-  background: linear-gradient(to right, #FD916A, #FD6266);
+  background: -webkit-gradient(linear, left top, right top, from(#FD916A), to(#e28285));
+  background: linear-gradient(to right, #FD916A, #e28285);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -45,8 +45,8 @@
   background: #F5515F;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#F5515F), color-stop(#F44F60), to(#D00269));
-  background: linear-gradient(to right, #F5515F, #F44F60, #D00269);
+  background: -webkit-gradient(linear, left top, right top, from(#ce1c75), color-stop(#D00269), to(#D00269));
+  background: linear-gradient(to right, #ce1c75, #D00269, #D00269);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -54,8 +54,8 @@
   background: #1D976C;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#30CC71), to(#1D976C));
-  background: linear-gradient(to right, #30CC71, #1D976C);
+  background: -webkit-gradient(linear, left top, right top, from(#3cbb8f), to(#3cbb8f));
+  background: linear-gradient(to right, #3cbb8f, #3cbb8f);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
