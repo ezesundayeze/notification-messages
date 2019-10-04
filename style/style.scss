@@ -113,7 +113,8 @@ $message_success:#1D976C;
 .btn{
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
-	border-radius:10px;
+    border-radius:50px;
+    box-shadow: 0 4px 2px -2px  $light_grey;
 	border:1px solid $light_blue_;
 	cursor:pointer;
 	font-family:Arial;
@@ -140,7 +141,8 @@ $message_success:#1D976C;
 
 .btn-success{
 	background-color:$btn_background_success;
-	color:$btn_success_color;
+    color:$btn_success_color;
+    width: 100px;
 
 }
 
